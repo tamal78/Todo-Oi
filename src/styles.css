@@ -38,7 +38,7 @@
   color: white;
   cursor: pointer;
 }
-.moon-icon,.cross-icon {
+.moon-icon {
   cursor: pointer;
 }
 .todo-card {
@@ -52,10 +52,10 @@
   /* border-top-left-radius: 5px;
   border-top-right-radius: 5px; */
 }
-span {
-  margin-left: 20px;
-  width: 300px;
-  overflow-wrap: break-word;
+.todo-card span {
+  max-width: 300px;
+  display: inline-block;
+  word-break: break-word;
 }
 
 .dark .todo-card {
@@ -67,6 +67,9 @@ span {
   background-color: #fff;
   color: #4b5563;
   border-bottom: 1px solid #d1d5db;
+}
+input[type="checkbox"] {
+  margin-right: 20px;
 }
 
 input[type="text"] {
@@ -167,6 +170,11 @@ input[type="text"] {
   }
   .todo-card {
     font-size: small;
+    overflow-wrap: break-word;
+  }
+
+  .todo-card span {
+    max-width: 240px;
   }
   .footer p {
     font-size: 10px;
@@ -174,7 +182,7 @@ input[type="text"] {
   .footer button {
     font-size: 10px;
   }
-  .todo-card p {
+  /* .todo-card p {
     width: 190px;
-  }
+  } */
 }
