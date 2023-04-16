@@ -38,7 +38,7 @@
   color: white;
   cursor: pointer;
 }
-.moon-icon {
+.moon-icon,.cross-icon {
   cursor: pointer;
 }
 .todo-card {
