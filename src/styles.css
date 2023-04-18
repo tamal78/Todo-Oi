@@ -41,6 +41,9 @@
 .moon-icon {
   cursor: pointer;
 }
+.cross-icon {
+  cursor: pointer;
+}
 .todo-card {
   background-color: #25273c;
   width: 400px;
